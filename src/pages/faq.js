@@ -20,39 +20,46 @@ const Faq = () => {
           className="bg-[#af67e9] bg-gradient-to-b from-[#af67e9] to-[#6565e7] "
         >{``}</html>
       </Helmet>
-      <div className="min-h-screen flex flex-col justify-center items-center relative mx-4 mb-10 lg:mt-10 lg:mx-0 font-KumbSans">
+      <div className="min-h-screen flex flex-col lg:flex-row justify-center items-center  relative mx-4 mb-10  lg:mx-0 font-KumbSans">
         <img
           src={mainPicMobile}
           alt=""
           className="-ml-5 -mb-24 z-10 lg:hidden"
         />
-        <div className="bg-white max-w-4xl  w-full rounded-2xl shadow-2xl lg:grid lg:grid-cols-2 lg:relative lg:overflow-hidden">
-          <img src={patternMobile} alt="" className=" m-auto lg:hidden" />
+        <div className="relative w-full max-w-4xl ">
+          <img
+            src={box}
+            alt=""
+            className=" z-40 hidden lg:block absolute top-44 -left-24"
+          />
+          <div className="bg-white w-full rounded-2xl shadow-2xl lg:grid lg:grid-cols-2 lg:relative lg:overflow-hidden">
+            <img src={patternMobile} alt="" className=" m-auto lg:hidden" />
 
-          {/* DESKTOP IMAGE COLLECTION */}
+            {/* DESKTOP IMAGE COLLECTION */}
 
-          <div className="hidden lg:block ">
-            <img
-              src={mainPicDesk}
-              alt=""
-              className="absolute -left-16 top-10 z-10"
-            />
-            <img
-              src={patternDesk}
-              alt=""
-              className="absolute w-[850px] -top-48 -left-96 pr-20"
-            />
-          </div>
+            <div className="hidden lg:block ">
+              <img
+                src={mainPicDesk}
+                alt=""
+                className="absolute -left-16 top-10 z-10"
+              />
+              <img
+                src={patternDesk}
+                alt=""
+                className="absolute w-[850px] -top-48 -left-96 pr-20"
+              />
+            </div>
 
-          {/* FAQ SECTION */}
+            {/* FAQ SECTION */}
 
-          <div className=" w-full p-4 lg:p-16">
-            <h1 className="text-center lg:text-left mb-8 lg:mb-10 font-bold text-[#1d1e35] text-3xl lg:text-4xl">
-              FAQ
-            </h1>
-            {faqData.map(({ q, a }, n) => (
-              <FaqDisclosure key={n} q={q} a={a} />
-            ))}
+            <div className=" w-full p-4 lg:p-16">
+              <h1 className="text-center lg:text-left mb-8 lg:mb-10 font-bold text-[#1d1e35] text-3xl lg:text-4xl">
+                FAQ
+              </h1>
+              {faqData.map(({ q, a }, n) => (
+                <FaqDisclosure key={n} q={q} a={a} />
+              ))}
+            </div>
           </div>
         </div>
       </div>

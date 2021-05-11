@@ -14,7 +14,10 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      ringColor: ['focus-visible'],
+      ringOffsetWidth: ['focus-visible']
+    },
   },
   plugins: [],
 }
