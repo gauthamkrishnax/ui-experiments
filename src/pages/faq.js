@@ -2,14 +2,36 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import "../styles/global.css";
 
-import faqData from "./faq/faqData";
-import FaqDisclosure from "./faq/Disclosure";
+import FaqDisclosure from "../components/Disclosure";
 
-import mainPicDesk from "./faq/illustration-woman-online-desktop.svg";
-import patternDesk from "./faq/bg-pattern-desktop.svg";
-import box from "./faq/illustration-box-desktop.svg";
-import patternMobile from "./faq/bg-pattern-mobile.svg";
-import mainPicMobile from "./faq/illustration-woman-online-mobile.svg";
+import mainPicDesk from "../images/faq/illustration-woman-online-desktop.svg";
+import patternDesk from "../images/faq/bg-pattern-desktop.svg";
+import box from "../images/faq/illustration-box-desktop.svg";
+import patternMobile from "../images/faq/bg-pattern-mobile.svg";
+import mainPicMobile from "../images/faq/illustration-woman-online-mobile.svg";
+
+const faqData = [
+  {
+    q: "How many team member can I invite?",
+    a: "You can Invite from two to four teams for the event.",
+  },
+  {
+    q: "What is the maximum file upload size?",
+    a: "No more than 2GB. All files in your account must fit your allotted storage space.",
+  },
+  {
+    q: "How do I reset my password?",
+    a: "You can choose forget password on Sign In menu or go to http://hsudk.fsdfsd.com/forgot-menu/ for more info",
+  },
+  {
+    q: "Can I cancel my subscription?",
+    a: " You can cancel your subscription within 10 days of your registration",
+  },
+  {
+    q: "Do you provide additional support?",
+    a: " Of course we do ! Click here for more info. ",
+  },
+];
 
 const Faq = () => {
   return (

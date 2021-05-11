@@ -2,7 +2,7 @@ import React from "react";
 
 import { Disclosure, Transition } from "@headlessui/react";
 
-import arrow from "./icon-arrow-down.svg";
+import arrow from "../images/faq/icon-arrow-down.svg";
 
 const FaqDisclosure = ({ q, a }) => {
   return (
