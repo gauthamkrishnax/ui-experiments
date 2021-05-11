@@ -3,8 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-  html,
-  body {
-    @apply bg-gray-500;
+  html {
+    height: 100%;
   }
 }
