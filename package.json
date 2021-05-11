@@ -1,0 +1,27 @@
+{
+  "name": "ui-experiments",
+  "version": "1.0.0",
+  "private": true,
+  "description": "UI Experiments",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop --host=0.0.0.0",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^3.4.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "gatsby-plugin-postcss": "^4.4.0",
+    "postcss": "^8.2.15",
+    "tailwindcss": "^2.1.2"
+  }
+}
