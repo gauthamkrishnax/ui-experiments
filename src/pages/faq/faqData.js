@@ -12,7 +12,7 @@ const faqData = [
     a: "You can choose forget password on Sign In menu or go to http://hsudk.fsdfsd.com/forgot-menu/ for more info",
   },
   {
-    q: "can I cancel my subscription?",
+    q: "Can I cancel my subscription?",
     a: " You can cancel your subscription within 10 days of your registration",
   },
   {
