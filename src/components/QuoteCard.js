@@ -1,11 +1,11 @@
 import React from "react";
 
-const QuoteCard = ({ name, photo, buyer, quote, last = false, style }) => {
+const QuoteCard = ({ name, photo, buyer, quote, last = false, Style }) => {
   return (
     <div
       className={`bg-[#502050] p-8 rounded-lg text-left ${
         last ? "lg:mb-4" : "mb-4 lg:mr-8"
-      } ${style}`}
+      } ${Style}`}
     >
       <div className="flex items-center">
         <img src={photo} alt={name} className="rounded-full w-8" />

@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import "../styles/global.css";
 
 import StarSection from "../components/StarSection";
 import QuoteCard from "../components/QuoteCard";
@@ -17,7 +18,8 @@ const SocialProof = () => {
   return (
     <>
       <Helmet>
-        <title>Social-props</title>
+        <html lang="en" className="bg-white">{``}</html>
+        <title>Social Proof</title>
       </Helmet>
 
       <div className="flex min-h-screen justify-center items-center">
@@ -39,18 +41,18 @@ const SocialProof = () => {
             <StarSection
               starsNo={4}
               name="Reviews"
-              style=" lg:transform lg:-translate-x-24"
+              Style=" lg:transform lg:-translate-x-24"
             />
             <StarSection
               starsNo={5}
               name="Report Guru"
-              style="lg:transform lg:-translate-x-12"
+              Style="lg:transform lg:-translate-x-12"
             />
             <StarSection
               starsNo={2}
               name="BestTech"
               last=" "
-              style="lg:transform lg:-translate-x-0"
+              Style="lg:transform lg:-translate-x-0"
             />
           </div>
 
@@ -62,21 +64,21 @@ const SocialProof = () => {
               photo={colton}
               buyer="Verified Buyer"
               quote="We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also recieved it in time. Excellent!"
-              style=""
+              Style=""
             />
             <QuoteCard
               name="Irene Roberts"
               photo={irene}
               buyer="Verified Buyer"
               quote="Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed delivery."
-              style="lg:transform lg:translate-y-4"
+              Style="lg:transform lg:translate-y-4"
             />
             <QuoteCard
               name="Anne Wallace"
               photo={anne}
               buyer="Verified Buyer"
               quote="Put an order with this company and only praise them for very high standard. Will defineitely use them again recommend them to everyone!"
-              style="lg:transform lg:translate-y-8"
+              Style="lg:transform lg:translate-y-8"
               last=" "
             />
           </div>
