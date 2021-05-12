@@ -9,14 +9,16 @@ module.exports = {
         '108': '24rem',
       },
       fontFamily: {
-        'KumbSans' : ['Kumbh Sans', 'sans-serif']
+        'KumbSans' : ['Kumbh Sans', 'sans-serif'],
+        'Spartan' : ['Spartan', 'sans-serif']
       }
     },
   },
   variants: {
     extend: {
       ringColor: ['focus-visible'],
-      ringOffsetWidth: ['focus-visible']
+      ringOffsetWidth: ['focus-visible'],
+      margin : ['last']
     },
   },
   plugins: [],

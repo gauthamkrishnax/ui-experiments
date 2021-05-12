@@ -41,6 +41,7 @@ const Faq = () => {
           lang="en"
           className="bg-[#af67e9] bg-gradient-to-b from-[#af67e9] to-[#6565e7] "
         >{``}</html>
+        <title>Faq</title>
       </Helmet>
       <div className="min-h-screen flex flex-col lg:flex-row justify-center items-center  relative mx-4 mb-10  lg:mx-0 font-KumbSans">
         <img
