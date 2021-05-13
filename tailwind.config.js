@@ -10,7 +10,12 @@ module.exports = {
       },
       fontFamily: {
         'KumbSans' : ['Kumbh Sans', 'sans-serif'],
-        'Spartan' : ['Spartan', 'sans-serif']
+        'Spartan' : ['Spartan', 'sans-serif'],
+        'PorterSans' : ['Porter Sans Block', 'sans-serif'],
+        'OpenSans' : ['Open Sans']
+      },
+      animation: {
+        growWidth: 'growWidth 1s ease-out',
       }
     },
   },
