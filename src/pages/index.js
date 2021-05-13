@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import { Helmet } from "react-helmet";
 import { graphql, Link } from "gatsby";
 
@@ -7,7 +7,9 @@ import "../styles/global.css";
 export const query = graphql`
   query MyQuery {
     allSitePage(
-      filter: { path: { nin: ["/", "/404/", "/404.html", "/dev-404-page/"] } }
+      filter: {
+        path: { nin: ["/", "/404/", "/404.html", "/dev-404-page/", "/about/"] }
+      }
     ) {
       nodes {
         path
@@ -18,8 +20,6 @@ export const query = graphql`
 
 // markup
 const IndexPage = ({ data }) => {
-  console.log(data.allSitePage.nodes);
-
   return (
     <>
       <Helmet>
@@ -36,7 +36,7 @@ const IndexPage = ({ data }) => {
               <li className="mb-8 lg:mb-0">
                 <Link
                   className=" lg:mr-10  hover:border-b-4 hover:border-black transition cursor-pointer"
-                  to="/"
+                  to="/about"
                 >
                   /ABOUT
                 </Link>
