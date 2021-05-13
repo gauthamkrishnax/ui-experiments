@@ -29,7 +29,7 @@ const IndexPage = ({ data }) => {
       <main className="min-h-screen font-OpenSans tracking-[6px] p-4 md:px-8 lg:text-lg">
         <div className="self-start mt-10 lg:text-right">
           <h1 className="font-PorterSans text-2xl lg:text-5xl md:text-4xl tracking-wide w-32 lg:w-full">
-            UI - EXPERIMENTS
+            UI-EXPERIMENTS
           </h1>
           <nav>
             <ul className="mt-10 text-[#353535] lg:flex lg:justify-end mb-4 lg:h-20">
@@ -75,7 +75,7 @@ const IndexPage = ({ data }) => {
 
           {data.allSitePage.nodes.map((e, n) => (
             <Link className="h-16" to={`${e.path}`}>
-              <li className="border-2 border-black px-8 py-2 tracking-[6px] lg:text-3xl lg:py-6 uppercase hover:border-b-8 hover:transform hover:-translate-y-2 ">
+              <li className="border-2 border-black px-8 py-2 tracking-[6px] lg:text-3xl lg:py-6 uppercase hover:border-b-8 hover:transform hover:-translate-y-2 active:border-b-2 active:-translate-y-0 focus-visible:ring-1">
                 {e.path}
               </li>
             </Link>
@@ -86,7 +86,7 @@ const IndexPage = ({ data }) => {
             href="https://reactcardcomponent.netlify.app/"
             rel="noopener noreferrer"
           >
-            <li className="border-2 border-black px-8 py-2 tracking-[6px] lg:text-3xl lg:py-6 uppercase hover:border-b-8 hover:transform hover:-translate-y-2 ">
+            <li className="border-2 border-black px-8 py-2 tracking-[6px] lg:text-3xl lg:py-6 uppercase hover:border-b-8 hover:transform hover:-translate-y-2 active:border-b-2 active:-translate-y-0 focus-visible:ring-1">
               /Stat card/
             </li>
           </a>
@@ -95,7 +95,7 @@ const IndexPage = ({ data }) => {
             href="https://reactthreecolumncardcomponent.netlify.app/"
             rel="noopener noreferrer"
           >
-            <li className="border-2 border-black px-8 py-2 tracking-[6px] lg:text-3xl lg:py-6 uppercase hover:border-b-8 hover:transform hover:-translate-y-2 ">
+            <li className="border-2 border-black px-8 py-2 tracking-[6px] lg:text-3xl lg:py-6 uppercase hover:border-b-8 hover:transform hover:-translate-y-2 active:border-b-2 active:-translate-y-0 focus-visible:ring-1">
               /THREE COLUMN CARD/
             </li>
           </a>
@@ -104,7 +104,7 @@ const IndexPage = ({ data }) => {
             href="https://reactprofilecardcomponent.netlify.app/"
             rel="noopener noreferrer"
           >
-            <li className="border-2 border-black px-8 py-2 tracking-[6px] lg:text-3xl lg:py-6 uppercase hover:border-b-8 hover:transform hover:-translate-y-2 ">
+            <li className="border-2 border-black px-8 py-2 tracking-[6px] lg:text-3xl lg:py-6 uppercase hover:border-b-8 hover:transform hover:-translate-y-2 active:border-b-2 active:-translate-y-0 focus-visible:ring-1">
               /profile card/
             </li>
           </a>

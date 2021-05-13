@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  UI - EXPERIMENTS
+  UI-EXPERIMENTS
 </h1>
 
 ## 🚀 Quick start
