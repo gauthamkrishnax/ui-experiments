@@ -17,6 +17,8 @@ module.exports = {
       },
       animation: {
         growWidth: 'growWidth 1s ease-out',
+        comeUp: 'comeUp 200ms ease-out',
+        comeDown: 'comeDown 200ms ease-out'
       }
     },
   },

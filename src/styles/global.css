@@ -19,6 +19,27 @@
   }
 }
 
+@keyframes comeUp {
+  0% {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 100%;
+  }
+}
+@keyframes comeDown {
+  0% {
+    transform: translateY(0px);
+    opacity: 100%;
+  }
+  100% {
+    transform: translateY(40px);
+    opacity: 0%;
+  }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
