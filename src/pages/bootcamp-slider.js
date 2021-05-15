@@ -5,9 +5,7 @@ import Slider from "../components/Slider";
 import johnPhoto from "../images/slider/image-john.jpg";
 import tanyaPhoto from "../images/slider/image-tanya.jpg";
 
-import bg1 from "../images/slider/pattern-bg.svg";
 import bg2 from "../images/slider/pattern-curve.svg";
-import quoteicon from "../images/slider/pattern-quotes.svg";
 
 const sliderData = [
   {
@@ -27,13 +25,9 @@ const sliderData = [
 
 const BootcampSlider = () => {
   return (
-    <div className="min-h-screen flex justify-center p-10 ">
+    <div className="h-screen flex justify-center p-10 lg:p-20 overflow-hidden">
       <Slider data={sliderData} />
-      <div className="z-[-1] absolute w-full h-full flex flex-col items-center">
-        <img src={bg1} alt="" className="-mt-8 max-w-[340px]" />
-        <img src={bg2} alt="" className="absolute inset-x-0 bottom-0" />
-        <img src={quoteicon} alt="" className="mt-10 w-16 h-16" />
-      </div>
+      <img src={bg2} alt="" className="absolute inset-x-0 bottom-0 z-[-1]" />
     </div>
   );
 };
