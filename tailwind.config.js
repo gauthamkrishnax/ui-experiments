@@ -13,7 +13,8 @@ module.exports = {
         'Spartan' : ['Spartan', 'sans-serif'],
         'PorterSans' : ['Porter Sans Block', 'sans-serif'],
         'OpenSans' : ['Open Sans'],
-        'Manrope' : ['Manrope']
+        'Manrope' : ['Manrope'],
+        'Inter' : ['Inter']
       },
       animation: {
         growWidth: 'growWidth 1s ease-out',
