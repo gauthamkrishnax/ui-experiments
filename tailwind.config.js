@@ -14,7 +14,8 @@ module.exports = {
         'PorterSans' : ['Porter Sans Block', 'sans-serif'],
         'OpenSans' : ['Open Sans'],
         'Manrope' : ['Manrope'],
-        'Inter' : ['Inter']
+        'Inter' : ['Inter'],
+        'Poppins' : ['Poppins']
       },
       animation: {
         growWidth: 'growWidth 1s ease-out',
